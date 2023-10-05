@@ -26,6 +26,8 @@ int main()
 	number >>= 4;
 	displayAndCompare(number);
 
+	std::cout << sizeof(number);
+
 	//TASKS:
 
 	//Shift right by 1 and display

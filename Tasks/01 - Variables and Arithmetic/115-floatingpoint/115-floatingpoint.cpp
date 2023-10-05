@@ -27,13 +27,14 @@ int main()
     //Caluclations
     double x = 1.234;
     printf("x = %f\n", x);
+    //infinite number of decimal places
 
     //Multiply
     x = x * 10.0;
     printf("x = %f\n", x);
 
     //Divide
-    x = x / 0.0;      //Error!!!!????
+    x = x / 0.0;      //Error!!!!????  //Zero-division error
     printf("x = %f\n", x);
 
 }

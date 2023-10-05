@@ -27,11 +27,11 @@ int main()
 	//Overflow
 	year = 32767;
 	year = year + 1;
-	printf("year = %d\n", year);
+	printf("year = %u\n", year);
 
 	//Divide
 	age = 50;
-	age = age / 2;
+	age = age / 0;
 	printf("Half of 50 is %d\n", age);
 	 
 	//Divide and remainder
