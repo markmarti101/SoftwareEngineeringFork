@@ -34,16 +34,22 @@ int main()
     if (level <= low)                       // check the level
     {
         cout << "Tank needs filling" << endl;
+        cin >> level;
     }
 
     if (level > low)                       // monitor the level
     {
         cout << "Tank has sufficient fuel for now" << endl;
+        cin >> level;
     }
 
-    if (level == high)                       // monitor the level
+    if (level = high)   //this assigns instead of equating the value                    // monitor the level
     {
         cout << "Tank is full" << endl;
+        cin >> level;
+    }
+    if (level == 0) {
+        cout << "Tank is empty";
     }
 
 }

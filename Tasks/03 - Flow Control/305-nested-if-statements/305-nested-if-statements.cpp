@@ -40,6 +40,9 @@ int main()
         }
         else {
             cout << "very soon as it is low" << endl;
+            if (level != high) {
+                cout << "Is there an option to top up fuel?" << endl;
+            }
         }
     }
     else //Ok, it is > low, so do the following.....
