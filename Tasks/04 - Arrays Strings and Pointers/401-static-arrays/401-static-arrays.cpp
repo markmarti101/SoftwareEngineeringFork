@@ -1,4 +1,5 @@
 #include <iostream>
+#include<numeric>
 using namespace std;
 
 int main()
@@ -44,7 +45,10 @@ int main()
 
     //Write task 1 solution here
     int64_t sum = 0L;   //Result needs to be bigger than int to avoid overflow
+    int new_sum{};
+    new_sum = accumulate(nums, nums + N, new_sum);
 
+    cout << "The sum of elements in the array" << new_sum;
 
     // ***********************************************************************************************************************
     // TASK 2 - calculate the mean of all elements (this will be a fractional value) and display to 1 decimal place accuracy *
